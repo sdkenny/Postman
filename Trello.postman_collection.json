@@ -18,7 +18,7 @@
 							"});\r",
 							"const response = pm.response.json();\r",
 							"    pm.test(\"Board name check\", function () {  \r",
-							"    pm.expect(response.name).to.eql('My board3');\r",
+							"    pm.expect(response.name).to.eql('My board4');\r",
 							"});\r",
 							"    pm.test(\"Board should be private\", function () {\r",
 							"    pm.expect(response.prefs.permissionLevel).to.eql('private');\r",
